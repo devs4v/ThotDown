@@ -2,3 +2,39 @@ html, body{
 margin: 0;
 padding: 0;
 }
+#navbar
+{
+background-color:red;
+padding: 20px;
+overflow: hidden;
+}
+
+#menu{
+	background-color: green;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.item{
+	background-color: navy;
+	color: white;
+	padding: 5px;
+	float: left;
+	text-align: center;
+}
+.item:hover{
+	color: grey;
+	background-color: blue;
+}
+p{
+ height: 400px;
+ }
+.item:hover .submenu{
+	display: block;
+}
+.submenu{
+	display: none;
+	position: relative;
+	padding: 5px;
+	list-style-type: none;
+}
