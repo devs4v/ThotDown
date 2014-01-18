@@ -1,0 +1,2 @@
+font used : Levenim MT
+font size: 18px
