@@ -20,7 +20,6 @@
 						
 				<div id="logoanim">
 					<div id="left"></div>
-					<div id="mid"></div>
 					<div id="right"></div>
 				</div>
 				<div style="margin-left: 200px;margin-top: 20px;">hover over the logo</div>
