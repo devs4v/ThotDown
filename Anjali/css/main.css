@@ -2,3 +2,19 @@ html, body{
 margin: 0;
 padding: 0;
 }
+
+/*#id{}*/
+
+/*.class*/
+
+#menuwrap{
+	background-color: red;
+}
+
+#menu{
+	background-color: navy;
+}
+
+.item{
+	background-color: magenta;
+}

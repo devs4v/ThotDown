@@ -17,6 +17,13 @@
 			<div id="wrapper">
 				<!-- 	wrapper will contain the main article section plus the side bar.
 						So, this in effect wraps the content box and the sidebar. -->
+				<div id="menuwrap">
+					<ul id="menu">
+						<li class="item">Item1</li>
+						<li class="item">Item2</li>
+						<li class="item">Item3</li>
+					</ul>
+				</div>
 			</div>
 			<div id="footer">
 				<!-- -->
