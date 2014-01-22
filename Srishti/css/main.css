@@ -2,3 +2,24 @@ html, body{
 margin: 0;
 padding: 0;
 }
+
+#menuwrap{	
+	background-color: red;
+	padding: 5px;
+}
+#menu{
+	background-color: navy;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.item{
+	background-color: magenta;
+	float: left;
+	margin: 15px;
+	padding: 10px;
+}
+.item:hover{
+	background-color: yellow;
+}
