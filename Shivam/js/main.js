@@ -7,10 +7,12 @@ t = setTimeout(bandkaro, 2000); //shuru mein band karke rakho taaki ki tD dikhe.
 }
 
 function bandkaro(){ //self explanatory hai bhai log!!! band karo aur kya...isme kya bataun main??
-	$('#left').animate({'left': '76px', 'width': '24px'}, speedbhiya);
-	$('#right').animate({'left': '99px', 'width': '29px'}, speedbhiya);
+	$('#left').stop(true).animate({'left': '76px', 'width': '24px'}, speedbhiya);
+	$('#right').stop(true).animate({'left': '99px', 'width': '29px'}, speedbhiya);
 }
 function kholo(){// aur isme khol lo! Behtareen! :D
-	$('#left').animate({'left': '0px', 'width': '99px'}, speedbhiya);
-	$('#right').animate({'left': '99px', 'width': '125px'}, speedbhiya);
+	$('#left').stop(true).animate({'left': '0px', 'width': '99px'}, speedbhiya);
+	$('#right').stop(true).animate({'left': '99px', 'width': '125px'}, speedbhiya);
 }
+
+//ni ni karke ho gaya bhiya! :D
