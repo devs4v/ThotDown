@@ -5,7 +5,7 @@
 		<meta charset="UTF-8"/>
 		<meta name="author" content="Naresh Aditya Madhav -- The Smarter Techie"/>
 		<meta name="keywords" content="design for the new blogging platform"/>
-		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 		<link rel="stylesheet" href="css/main.css"/>
 	</head>
