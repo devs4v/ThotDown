@@ -19,9 +19,18 @@
 						So, this in effect wraps the content box and the sidebar. -->
 				<div id="menuwrap">
 					<ul id="menu">
-						<li class="item">Item1</li>
-						<li class="item">Item2</li>
-						<li class="item">Item3</li>
+						<li class="item"><span>Home</span></li>
+						<li class="item"><span>Events</span>
+							<ul class = "submenu">
+								<li class="submenu-item"><span>Nukkad Natak</span></li>
+								<li class="submenu-item"><span>Grammer Nazi</span></li>
+								<li class="submenu-item"><span>Captcha</span></li>
+								<li class="submenu-item"><span>Fashion Parade</span></li>
+							</ul>
+						</li>
+						<li class="item"><span>About Us</span></li>
+						<li class="item"><span>Contact Us</span></li>
+						
 					</ul>
 				</div>
 			</div>
