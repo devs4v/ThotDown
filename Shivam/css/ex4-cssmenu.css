@@ -1,0 +1,47 @@
+html, body{
+margin: 0;
+padding: 0;
+}
+#menuwrap{
+	margin: 0;
+	padding: 5px;
+	
+}
+#menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: red;
+}
+.item{
+	margin: 0;
+	padding: 2px 15px;
+	background-color: navy;
+	float: left;
+	position: relative;
+	color: white;
+}
+.item:hover{
+	background-color: blue;
+	color: black;
+}
+.item:hover .submenu{
+	display: block;
+}
+.submenu{
+	margin: 0;
+	padding: 2px;
+	list-style-type: none;
+	position: absolute;
+	margin-top: 2px;
+	margin-left: -15px;
+	color: black;
+	display: none;
+	background-color: magenta;
+}
+.submenu-item{
+	padding: 2px;
+}
+.submenu-item:hover{
+	background-color: green;
+}
