@@ -1,11 +1,26 @@
-html, body{
-margin: 0;
-padding: 0;
+html{
+font: 62.5% 'CartoGothicStdBook',Arial,sans-serif;}
+
+body{
+	margin: 0;
+	padding: 0;
+	color: rgb(221, 221, 221);
+	text-align: left;
+	font-size: 1.9em;
+	line-height: 1.65em;
 }
 
+#header{
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	height: 90px;
+	border-bottom: 10px solid orange;
 
-#menuwrap{
-	background-color: red;
+}
+
+#HeaderContent_area{
+	/*background-color: red*/
 	padding: 0;
 	/*height: 50px;
 	margin: 10px 0px 0px 0px;*/
@@ -16,28 +31,34 @@ padding: 0;
 	list-style-type:none;
 	margin:0;
 	padding:0;
-	
+	width: 450px;
+	float: right;
+	margin-top: 30px;
 	font-size:18px;
 }
 
 
 .item{
 	margin:0;
-	padding:3px 15px;
-	background-color: navy;
-	float:left;
-	/*display:inline;*/
+	/*padding:3px 15px;*/
+	padding: 0px 15px 23px;
+	background-color:383838;
+	/*float:left;*/
+	line-height: 1.65em;
+	font-size: 1.0em;
+	display:inline;
 	color:orange;
 	position: relative;
+	text-align: left;
 }
 
 .item:hover
 {
-background-color: grey;
+color: DDDDDD;
 }
 
 .item:hover .submenu{
-	background-color: grey;
+	background-color: FF9C7A;
 	display: block;
 }
 
@@ -58,4 +79,10 @@ background-color: grey;
 .submenu-item:hover{
 	background-color: white
 	
+}
+
+
+#wrapper{
+	margin: 0px auto;
+	width: 960px;
 }
