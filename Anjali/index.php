@@ -13,8 +13,9 @@
 		<div id="container">
 			<div id="header">
 				<!-- Head section. Can contain the toolbar or the nav bar if needed or can be merged with the main content area-->
-				<a href
+				
 				<div id="HeaderContent_area">
+					<!---<a href=""/> --->
 					<ul id="menu">
 						<li class="item"><span>Home</span></li>
 						<li class="item"><span>About Us</span></li>
@@ -35,6 +36,16 @@
 				<!-- 	wrapper will contain the main article section plus the side bar.
 						So, this in effect wraps the content box and the sidebar. -->
 				
+			</div>
+			<div id = "footer_container">
+				<div class = "ContentArea">
+					<p class="Connect">
+					<ul id="SocialLinks">
+						<li><a href="mailto:ujjainia.2906@gmail.com">EMAIL</a></li>
+						<li>TWITTER</li>
+						<li><a href="http://facebook.com/anjali.ujjainia5">FACEBOOK</a></li>
+					</ul>
+				</div>
 			</div>
 			<div id="footer">
 				<!-- -->
