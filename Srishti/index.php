@@ -58,17 +58,17 @@
 			<div id="footer">
 				<div class="container">
 					<div class="navigation">
-						|
-						<a class = "buttons" href = "www.facebook.com">Help </a>
-						|
-						<a class = "buttoms" href = "www.facebook.com"> Terms </a>
-						|
-						<a class = "buttons" href = "www.google.com"> About Us </a>
-						|
-						<a class = "buttons" href = "www.google.com"> Licence </a>
-						|
-						<a class = "buttons" href = "www.google.com"> Contact </a>
-						|
+				
+						<a class = "buttons" href = "www.facebook.com">Help</a>
+						
+						<a class = "buttons" href = "www.facebook.com">Terms</a>
+						
+						<a class = "buttons" href = "www.google.com">About Us</a>
+						
+						<a class = "buttons" href = "www.google.com">Licence</a>
+						
+						<a class = "buttons" href = "www.google.com">Contact</a>
+						
 					</div>
 					<div id = "copyright_line"> Copyright © 2014 ThotDown </div>
 				</div>
