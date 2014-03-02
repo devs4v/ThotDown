@@ -59,7 +59,7 @@
 				<div class="container">
 					<div class="navigation">
 				
-						<a class = "buttons" href = meh><font> <color : "black"> Help </font></a>
+						<a class = "buttons" href = meh>Help</a>
 						
 						<a class = "buttons" href = meh >Terms</a>
 						

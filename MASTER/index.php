@@ -19,7 +19,7 @@
 						So, this in effect wraps the content box and the sidebar. -->
 			</div>
 			<div id="footer">
-				<div class="container">
+				<div class="footer-container">
 					<div class="navigation">
 				
 						<a class = "buttons" href = meh>Help</a>
