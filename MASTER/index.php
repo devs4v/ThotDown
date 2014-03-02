@@ -19,7 +19,22 @@
 						So, this in effect wraps the content box and the sidebar. -->
 			</div>
 			<div id="footer">
-				<!-- -->
+				<div class="container">
+					<div class="navigation">
+				
+						<a class = "buttons" href = meh>Help</a>
+						
+						<a class = "buttons" href = meh >Terms</a>
+						
+						<a class = "buttons" href = meh >About Us</a>
+						
+						<a class = "buttons" href = bleh >Licence</a>
+						
+						<a class = "buttons" href = Python >Contact</a>
+						
+					</div>
+					<div id = "copyright_line"> Copyright &copy; 2014 The Smarter Techies </div>
+				</div>
 			</div>
 		</div>
 	</body>
