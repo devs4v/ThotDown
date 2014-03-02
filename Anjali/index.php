@@ -14,7 +14,7 @@
 			<div id="header">
 				<!-- Head section. Can contain the toolbar or the nav bar if needed or can be merged with the main content area-->
 				<div id="main_logo">
-					
+					<img src="pics/logo.png"/>
 				</div>
 				<div id="HeaderContent_area">
 					<!---<a href=""/> --->
@@ -34,8 +34,16 @@
 						<H1> "Got Some Idea, Why Don't You Note It Down."</H1>
 					</div>
 				</div>
-				<div id="signin-box">
-					<div id="box">
+				<div id="login-space">
+				<!-- the sign in box -->
+					<div id="login-box">
+						<div id="login">
+							<h1>Login</h1>
+							<p><input type="email" placeholder="Username or Email" name="email"></p>
+							<p><input type="password" placeholder="Password" name="password"></p>
+							<p class ="submit">
+							<input type="submit" value="Login"></p>
+						</div>
 					</div>
 				</div>
 			</div>
