@@ -48,24 +48,30 @@
 				<h6>
 					This is the smallest :P...this is tiiiiiiinnnnnny.. :D
 				</h6>
-				<img src="images/book.jpg" style="float: left;height: 100px;width: 100px;"/>
-				<img src="images/book.jpg" style="float: left;height: 100px;width: 100px;"/>
-				<img src="images/book.jpg" style="float: left;height: 100px;width: 100px;"/>
-				<img src="images/book.jpg" style="float: left;height: 100px;width: 100px;"/>
-				<img src="images/book.jpg" style="float: left;height: 100px;width: 100px;"/>
-				<img src="images/book.jpg" style="float: left;height: 100px;width: 100px;"/>
+	
 				<br/>
 				<br/>
 				<br/>
 				<br/>
-				
-				<p>
-					JE BAAT :D :D :D :D :D :D Ye toh sahi baat hai ki main kuch khas nahi likh raha lekin padh lo apna kya hai time toh khoob sara nahi hai lekin main bore karne mein expert hun toh koi dikkat nahi hai you see.. toh waise toh kya hai ki yeh sab aise hi likha ja raha hun main toh bhai ekdum mast ekdum. toh ye sab itna bada likhne ka yahi maksad tha ki aeinvain bohot sara likhna tha.Ye toh sahi baat hai ki main kuch khas nahi likh raha lekin padh lo apna kya hai time toh khoob sara nahi hai lekin main bore karne mein expert hun toh koi dikkat nahi hai you see.. toh waise toh kya hai ki yeh sab aise hi likha ja raha hun main toh bhai ekdum mast ekdum. toh ye sab itna bada likhne ka yahi maksad tha ki aeinvain bohot sara likhna tha.Ye toh sahi baat hai ki main kuch khas nahi likh raha lekin padh lo apna kya hai time toh khoob sara nahi hai lekin main bore karne mein expert hun toh koi dikkat nahi hai you see.. toh waise toh kya hai ki yeh sab aise hi likha ja raha hun main toh bhai ekdum mast ekdum. toh ye sab itna bada likhne ka yahi maksad tha ki aeinvain bohot sara likhna tha.Ye toh sahi baat hai ki main kuch khas nahi likh raha lekin padh lo apna kya hai time toh khoob sara nahi hai lekin main bore karne mein expert hun toh koi dikkat nahi hai you see.. toh waise toh kya hai ki yeh sab aise hi likha ja raha hun main toh bhai ekdum mast ekdum. toh ye sab itna bada likhne ka yahi maksad tha ki aeinvain bohot sara likhna tha.Ye toh sahi baat hai ki main kuch khas nahi likh raha lekin padh lo apna kya hai time toh khoob sara nahi hai lekin main bore karne mein expert hun toh koi dikkat nahi hai you see.. toh waise toh kya hai ki yeh sab aise hi likha ja raha hun main toh bhai ekdum mast ekdum. toh ye sab itna bada likhne ka yahi maksad tha ki aeinvain bohot sara likhna tha.Ye toh sahi baat hai ki main kuch khas nahi likh raha lekin padh lo apna kya hai time toh khoob sara nahi hai lekin main bore karne mein expert hun toh koi dikkat nahi hai you see.. toh waise toh kya hai ki yeh sab aise hi likha ja raha hun main toh bhai ekdum mast ekdum. toh ye sab itna bada likhne ka yahi maksad tha ki aeinvain bohot sara likhna tha.Ye toh sahi baat hai ki main kuch khas nahi likh raha lekin padh lo apna kya hai time toh khoob sara nahi hai lekin main bore karne mein expert hun toh koi dikkat nahi hai you see.. toh waise toh kya hai ki yeh sab aise hi likha ja raha hun main toh bhai ekdum mast ekdum. toh ye sab itna bada likhne ka yahi maksad tha ki aeinvain bohot sara likhna tha.Ye toh sahi baat hai ki main kuch khas nahi likh raha lekin padh lo apna kya hai time toh khoob sara nahi hai lekin main bore karne mein expert hun toh koi dikkat nahi hai you see.. toh waise toh kya hai ki yeh sab aise hi likha ja raha hun main toh bhai ekdum mast ekdum. toh ye sab itna bada likhne ka yahi maksad tha ki aeinvain bohot sara likhna tha.
-				</p>
 				
 			</div>
 			<div id="footer">
-				<!-- -->
+				<div class="container">
+					<div class="navigation">
+						|
+						<a class = "buttons" href = "www.facebook.com">Help </a>
+						|
+						<a class = "buttoms" href = "www.facebook.com"> Terms </a>
+						|
+						<a class = "buttons" href = "www.google.com"> About Us </a>
+						|
+						<a class = "buttons" href = "www.google.com"> Licence </a>
+						|
+						<a class = "buttons" href = "www.google.com"> Contact </a>
+						|
+					</div>
+					<div id = "copyright_line"> Copyright © 2014 ThotDown </div>
+				</div>
 			</div>
 		</div>
 	</body>

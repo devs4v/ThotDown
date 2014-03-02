@@ -23,3 +23,9 @@ padding: 0;
 .item:hover{
 	background-color: yellow;
 }
+
+#footer{
+	text-align : center;
+	background-color: #D9D9DC;
+	padding: 5px;
+}
