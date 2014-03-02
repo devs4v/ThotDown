@@ -13,7 +13,9 @@
 		<div id="container">
 			<div id="header">
 				<!-- Head section. Can contain the toolbar or the nav bar if needed or can be merged with the main content area-->
-				<div id="main_logo"></div>
+				<div id="main_logo">
+					
+				</div>
 				<div id="HeaderContent_area">
 					<!---<a href=""/> --->
 					<ul id="menu">
@@ -21,21 +23,21 @@
 						<li class="item"><span>About Us</span></li>
 						<li class="item"><span>Events</span></li>
 						<li class="item"><span>Contact Us</span></li>
-							<!---<ul class = "submenu">
-								<li class="submenu-item"><span>Nukkad Natak</span></li>
-								<li class="submenu-item"><span>Grammer Nazi</span></li>
-								<li class="submenu-item"><span>Captcha</span></li>
-								<li class="submenu-item"><span>Binge</span></li>
-							</ul>
-						</li>--->
-						
 					</ul>
 				</div>
 			</div>
 			<div id="wrapper">
 				<!-- 	wrapper will contain the main article section plus the side bar.
 						So, this in effect wraps the content box and the sidebar. -->
-				
+				<div id="cover">
+					<div id="text">
+						<H1> "Got Some Idea, Why Don't You Note It Down."</H1>
+					</div>
+				</div>
+				<div id="signin-box">
+					<div id="box">
+					</div>
+				</div>
 			</div>
 			<div id = "footer_container">
 				<div class = "ContentArea">
