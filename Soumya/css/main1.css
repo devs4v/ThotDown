@@ -1,0 +1,22 @@
+html, body{
+margin: 0;
+padding: 0;
+}
+#sign-up
+{
+	/*overflow: auto;*/
+	width:300px;
+}
+.signup-index
+{
+	width: 150px;
+	float: left;
+	height: 50px;
+}
+
+.signup-field
+{
+	width: 150px;
+	float: right;
+	height: 50px;
+}
