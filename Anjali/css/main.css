@@ -10,13 +10,22 @@ body{
 	line-height: 1.65em;
 }
 
+.main_logo{
+	background-image: url("pics/logo.png");
+	margin:0px;
+	height:20px;
+	width:20px;
+	float:left;
+	display:block;
+	text-indent: 0px;
+}
 #header{
 	margin: 0px;
 	padding: 0px;
 	clear: both;
 	height: 90px;
-	border-bottom: 10px solid orange;
-
+	border-bottom: 10px solid rgb(231, 44, 45);
+	/*border-color: rgb(231, 44, 45);*/
 }
 
 #HeaderContent_area{
