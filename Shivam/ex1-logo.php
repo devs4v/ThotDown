@@ -6,8 +6,8 @@
 		<meta name="author" content="Shivam Chaturvedi -- The Smarter Techie"/>
 		<meta name="keywords" content="design for the new blogging platform"/>
 		<script type="text/javascript" src="jquery.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
-		<link rel="stylesheet" href="css/main.css"/>
+		<script type="text/javascript" src="js/ex1-logo.js"></script>
+		<link rel="stylesheet" href="css/ex1-logo.css"/>
 	</head>
 	<body onload="init();">
 		<div id="container">

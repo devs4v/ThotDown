@@ -1,0 +1,26 @@
+html, body{
+margin: 0;
+padding: 0;
+}
+#logoanim{
+	margin-left: 150px;
+	margin-top: 150px;
+	position: relative;
+	margin-bottom: 2px;
+	overflow: hidden;
+	height: 57px;
+	width: 500px;
+}
+#left{
+	background: url('/ThotDown/Shivam/images/left.png');
+	width: 99px;
+}
+#right{
+	background: url('/ThotDown/Shivam/images/right.png');
+	width: 125px;
+	left: 99px;
+}
+#left, #right{
+	height: 54px;
+	position: absolute;
+}
