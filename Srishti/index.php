@@ -59,18 +59,18 @@
 				<div class="container">
 					<div class="navigation">
 				
-						<a class = "buttons" href = "www.facebook.com">Help</a>
+						<a class = "buttons" href = meh><font> <color : "black"> Help </font></a>
 						
-						<a class = "buttons" href = "www.facebook.com">Terms</a>
+						<a class = "buttons" href = meh >Terms</a>
 						
-						<a class = "buttons" href = "www.google.com">About Us</a>
+						<a class = "buttons" href = meh >About Us</a>
 						
-						<a class = "buttons" href = "www.google.com">Licence</a>
+						<a class = "buttons" href = bleh >Licence</a>
 						
-						<a class = "buttons" href = "www.google.com">Contact</a>
+						<a class = "buttons" href = Python >Contact</a>
 						
 					</div>
-					<div id = "copyright_line"> Copyright © 2014 ThotDown </div>
+					<div id = "copyright_line"> Copyright &copy; 2014 The Smarter Techies </div>
 				</div>
 			</div>
 		</div>
