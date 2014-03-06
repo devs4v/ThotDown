@@ -7,6 +7,7 @@
 		<meta name="keywords" content="design for the new blogging platform"/>
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
+<<<<<<< HEAD
 		<script>
   $(function() {
     $(".rslides").responsiveSlides();
@@ -36,7 +37,11 @@ $(".rslides").responsiveSlides({
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="js/responsiveslides.min.js"></script>
+=======
+		<link href='http://fonts.googleapis.com/css?family=Revalia' rel='stylesheet' type='text/css'>
+>>>>>>> new login
 		<link rel="stylesheet" href="css/main.css"/>
+
 	</head>
 	<body>
 		<div id="container">
@@ -46,7 +51,6 @@ $(".rslides").responsiveSlides({
 					<img src="pics/logo.png"/>
 				</div>
 				<div id="HeaderContent_area">
-					<!---<a href=""/> --->
 					<ul id="menu">
 						<li class="item"><span>Home</span></li>
 						<li class="item"><span>About Us</span></li>
@@ -58,26 +62,43 @@ $(".rslides").responsiveSlides({
 			<div id="wrapper">
 				<!-- 	wrapper will contain the main article section plus the side bar.
 						So, this in effect wraps the content box and the sidebar. -->
-				<ul class="rslides">
-  <li><img src="11.jpg" alt=""></li>
-  <li><img src="21.jpg" alt=""></li>
-  <li><img src="31.jpg" alt=""></li>
-</ul>
+				
 				<div id="cover">
 					<div id="text">
-						<H1> "Got Some Idea, Why Don't You Note It Down."</H1>
+						<h1> "Got Some Idea, Why Don't You Note It Down."</h1>
 					</div>
 				</div>
+				
 				<div id="login-space">
 				<!-- the sign in box -->
+				<form name ="login-form" class="login-form" action="" method="post">
 					<div id="login-box">
-						<div id="login">
-							<h1>Login</h1>
-							<p><input type="email" placeholder="Username or Email" name="email"></p>
-							<p><input type="password" placeholder="Password" name="password"></p>
-							<p class ="submit">
-							<input type="submit" value="Login"></p>
+						<div class="login-head">
+							<h1>Login Form</h1>
+							<span>Fill out the form below to login to my super awesome imaginary control panel.</span>
 						</div>
+	
+						<div class="login-content">
+							<input name="username" type="text" class="input username" placeholder="Username" />
+							<!-- <div class="user-icon"></div> -->
+							<input name="password" type="password" class="input password" placeholder="Password" />
+							<!-- <div class="pass-icon"></div> -->		
+						</div>
+
+					<div class="login-footer">
+						<input type="submit" name="submit" value="Login" class="button" />
+						<input type="submit" name="submit" value="Register" class="register" />
+					</div>
+	
+				</form>
+
+				</div>
+				<div class="gradient"></div>
+
+					</div>
+				<div id = "sign-up">
+					<div id="signup-box">
+						<button type="button" class="button"> Sign up </button>
 					</div>
 				</div>
 			</div>
