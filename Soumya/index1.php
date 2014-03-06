@@ -78,29 +78,8 @@
 					</div>
 				</div>
 			</div>
-			
-			<div id="sign-up">
-				<form>
-					<div class="signup-index">  First name: </div>
-					<div class="signup-field"> <input type="text" value="first name" name="firstname"></div><br>
-					<div class="signup-index">  Last name: </div>
-					<div class="signup-field"> <input type="text" value="last name" name="lastname"></div><br>
-					<div class="signup-index">  E-mail ID: </div>
-					<div class="signup-field"> <input type="text" value="email id" name="email id"></div><br>
-					<div class="signup-index">  User Name: </div>
-					<div class="signup-field"> <input type="text" value="user name" name="username"></div><br>
-					<div class="signup-index">  Password: </div>
-					<div class="signup-field"> <input type="password" value="pass" name="password"></div><br>
-					<div class="signup-index">  Confirm Password: </div>
-					<div class="signup-field"> <input type="password" value="pass" name="confirm password"></div><br>
-					<div class="signup-index"><input type="submit" value="Submit"></div>
-					<div class="signup-index"><input type="reset" value="Reset"></div>
-
-				</form>
-			</div>
-			
 			<div id="footer">
-				<div class="container">
+				<div class="container" >
 					<div class="navigation">
 				
 						<a class = "buttons" href = meh>Help</a>
@@ -117,5 +96,6 @@
 					<div id = "copyright_line"> Copyright &copy; 2014 The Smarter Techies </div>
 				</div>
 			</div>
+		</div>
 	</body>
 </html>

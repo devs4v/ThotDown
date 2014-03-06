@@ -18,8 +18,9 @@ body{
 	float:left;
 	display:block;
 	text-indent: 0px;
+	z-index: -15px;
 	/*position: absolute;*/
-	position: fixed;
+	/*position: fixed;*/
 }
 #header{
 	margin: 0px;
@@ -28,25 +29,29 @@ body{
 	height: 90px;
 	border-bottom: 5px solid black;
 	height: 100px;
+	width: 100%;
 	background-color: RGB(255,255,255);
-	/*position: fixed;*/
+	position: fixed;
+	z-index: -15px;
 	}
 
 #HeaderContent_area{
 	/*background-color: red*/
 	padding: 0;
+	z-index: 200px;
 	/*height: 50px;
 	margin: 10px 0px 0px 0px;*/
-	position: fixed;
+	/*position: fixed;*/
 }
 #menu{
-	position: fixed;	
+	/*position: fixed;*/
 	list-style-type:none;
 	margin:0;
 	padding:0;
 	width: 450px;
 	float: right;
 	margin-top: 30px;
+	z-index: 200px;
 	font-size:18px;
 }
 .item{
@@ -60,8 +65,9 @@ body{
 	display:inline;
 	color:black;
 	/*position: relative;*/
-	position: fixed;
+	/*position: fixed;*/
 	text-align: left;
+	z-index: 200px;
 }
 
 #signup-space{
@@ -75,7 +81,7 @@ body{
 	position:relative;*/
 	margin:50px auto;
 	width: 400px;
-	height: 400px;
+	height: auto;
 	border: 5px solid black;
 	position: relative;
 	top: -500px;
@@ -128,7 +134,8 @@ body{
 }
 #wrapper{
 	margin: 0px auto;
-	/*position: relative;
+	/*top: 900px;
+	position: relative;
 	margin-top:150px;*/
 	
 }
@@ -139,8 +146,7 @@ body{
 	height:480px;
 	border-bottom: solid black;
 	border-bottom-width: 5px;
-	margin;
-	
+	/*top: 90px;*/
 }
 
 #text{
@@ -217,14 +223,25 @@ body{
 
 #footer{
 	text-align : center;
+	align: center;
 	/*background-color: #D9D9DC;*/
 	background-color: #666666;
 	padding: 5px;
 }
 
+.container{margin:0px;
+padding:0px;}
+
 .navigation{
-	margin: 15px;
+    margin: 15px;
 	padding: 10px;
+	
+	/*margin-left:15px;
+	margin-right:15px;
+	margin-top:15px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:15px;*/
 }
 
 .buttons{
