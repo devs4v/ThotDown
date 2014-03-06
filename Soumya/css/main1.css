@@ -1,5 +1,6 @@
 html{
-font: 14px 'CartoGothicStdBook',Arial,sans-serif;}
+font: 14px 'CartoGothicStdBook',Arial,sans-serif;
+}
 
 body{
 	margin: 0;
@@ -38,7 +39,7 @@ body{
 #HeaderContent_area{
 	/*background-color: red*/
 	padding: 0;
-	z-index: 200px;
+	z-index: -15px;
 	/*height: 50px;
 	margin: 10px 0px 0px 0px;*/
 	/*position: fixed;*/
@@ -51,7 +52,7 @@ body{
 	width: 450px;
 	float: right;
 	margin-top: 30px;
-	z-index: 200px;
+	z-index: -15px;
 	font-size:18px;
 }
 .item{
@@ -67,7 +68,7 @@ body{
 	/*position: relative;*/
 	/*position: fixed;*/
 	text-align: left;
-	z-index: 200px;
+	z-index: -15px;
 }
 
 #signup-space{
