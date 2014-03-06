@@ -61,36 +61,6 @@ body{
 	text-align: left;
 }
 
-
-/*.item:hover
-{
-color: DDDDDD;
-}
-
-.item:hover .submenu{
-	background-color: FF9C7A;
-	display: block;
-}
-
-.submenu{
-	margin:0;
-	padding:2px;
-	position: absolute;
-	margin-top:2px;
-	margin-left: -15px;
-	list-style-type: none;
-	display:none;
-}
-		
-.submenu-item{
-	margin: 0;
-	padding: 2px;
-}
-.submenu-item:hover{
-	background-color: white
-	
-}
-*/
 #wrapper{
 	margin: 0px auto;
 }
@@ -121,97 +91,11 @@ color: DDDDDD;
 	height: 120px;
 }
 
+/* ################################################################
 
-/*#login-box{
-	
-	margin: 50px auto;
-	width: 360px;
-	height: 220px;
-	border: 5px solid black;
-	position: relative;
-	bottom: 236px;
-	right: -326px;
-	background-color: white;
-}
-/*
-#login{
-	position:relative;
-	margin: 0 auto;
-	padding: 20px 20px 2px;
-	width: 310px:
-}
+LOGIN-FORM
 
-#login p.submit{
-	text-align:left;
-}
-
-#login h1{
-	margin: -20px -20px 21px;
-	line-height: 40px;
-	font-size: 18px;
-	font-weight: bold;
-	color: #555;
-	text-align: center;
-	text-shadow: 0 1px white;
-	background: #cde5ef;
-	border-bottom: 1px solid #cfcfcf;
-	/*box-shadow: 0 1px whitesmoke*/
-	/*
-	background-image: linear-gradient(to bottom, whiteffd, #eef2f5);
-}
-#login p{
-	margin: 18px 0 0;
-}
-
-#login p:first-child {
-	margin-top:
-}
-
-input {
-	font-family: "Lucida Grande", Tahoma, Verdana,sans-serif;
-	font-size: 14px;
-}
-#login input[type=email], #login input[type=password] {
-	
-	width: 278px;
-	height: 30px;	
-}
-
-input[type=email], input[type=password] {
-	margin: 5px;
-	padding: 6px;
-	color: #404040;
-	background: white;
-	border: 1px solid;
-	border-color: #c4c4c4 #d1d1d1 #d4d4d4;
-	border-radius: 2px;
-	outline: 5px solid #cde5ef;
-	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
-}
-
-input[type=email]:focus, input[type=password]:focus{
-	border-color: #7dc9e2;
-	outline-color: #dceefc;
-	outline-offset: 0;
-}
-
-input[type=submit]{
-	padding:0 18px;
-	height: 29px;
-	font-size: 12px;
-	font-weight: bold;
-	color: #527881;
-	
-	background: #cde5ef;
-	border: 1px solid;
-	/*border-radius: 16px;*/
-	/*outline: 0;
-	background-image: linear-gradient(to bottom, #edf5f8, #cde5ef);
-	/*text-shadow: 01px #e3f1f1;
-	box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
-}
-*/
-
+######################################################## */
 .login-form {
 	width: 300px;
 	margin: 0 auto;
@@ -231,7 +115,7 @@ input[type=submit]{
 }
 
 /*******************
-HEADER
+;LOGIN-HEADER
 *******************/
 
 .login-form .login-head {
@@ -256,7 +140,7 @@ HEADER
 }
 
 /*******************
-CONTENT
+LOGIN-CONTENT
 *******************/
 
 .login-form .login-content {
@@ -302,30 +186,6 @@ CONTENT
 	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
 }
 
-.user-icon, .pass-icon {
-	width: 46px;
-	height: 47px;
-	display: block;
-	position: absolute;
-	left: 0px;
-	padding-right: 2px;
-	z-index: -1;
-	
-	-moz-border-radius-topleft: 5px;
-	-moz-border-radius-bottomleft: 5px;
-	-webkit-border-top-left-radius: 5px;
-	-webkit-border-bottom-left-radius: 5px;
-}
-
-.user-icon {
-	top:153px; /* Positioning fix for slide-in, got lazy to think up of simpler method. */
-	background: rgba(65,72,72,0.75) url(http://www.demo.amitjakhu.com/login-form/images/user-icon.png) no-repeat center;	
-}
-
-.pass-icon {
-	top:201px;
-	background: rgba(65,72,72,0.75) url(http://www.demo.amitjakhu.com/login-form/images/pass-icon.png) no-repeat center;
-}
 
 .login-content input:focus + div{
 	left: -46px;
@@ -341,7 +201,7 @@ CONTENT
 }
 
 /*******************
-FOOTER
+LOGIN-FOOTER
 *******************/
 
 .login-form .login-footer {
@@ -428,8 +288,26 @@ MY DESIGN
 
 ******************************************* */
 
-button{
-	padding:0 18px;
+signup_button{
+	float:right;
+	padding: 11px 25px;
+	
+	font-family: 'Bree Serif', serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #fff;
+	text-shadow: 0px 1px 0 rgba(0,0,0,0.25);
+	
+	background: #56c2e1;
+	border: 1px solid #46b3d3;
+	border-radius: 5px;
+	cursor: pointer;
+	
+	box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+	-moz-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+	-webkit-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+
+	/*padding:0 18px;
 	height: 29px;
 	font-size: 12px;
 	font-weight: bold;
@@ -448,19 +326,38 @@ button.centered{
 	text-align: center;
 	margin: 0 auto;
 }
-#footer_container{
-	position: absolute;
-	clear:both;
-	left:0px;
-	right:0;
-	bottom:0;
 
+/* ################################################################
+
+FOOTER
+
+######################################################## */
+
+#footer{
+	text-align : center;
+	/*background-color: #D9D9DC;*/
+	background-color: #666666;
+	padding: 5px;
 }
 
-#connect{
-
+.navigation{
+	margin: 15px;
+	padding: 10px;
 }
 
-.SocialLinks{
-	
+.buttons{
+	margin: 10px;
+	padding: 10px;
+	font-family: Levenim MT;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.buttons:hover{
+color: yellow;
+}
+
+#copyright_line{
+	font-family: Levenim MT;
+	color: #D9D9DC;
 }

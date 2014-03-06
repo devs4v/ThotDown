@@ -7,39 +7,8 @@
 		<meta name="keywords" content="design for the new blogging platform"/>
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
-<<<<<<< HEAD
-		<script>
-  $(function() {
-    $(".rslides").responsiveSlides();
-  });
-</script>
-
-<script>
-$(".rslides").responsiveSlides({
-  auto: true,             // Boolean: Animate automatically, true or false
-  speed: 500,            // Integer: Speed of the transition, in milliseconds
-  timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
-  pager: false,           // Boolean: Show pager, true or false
-  nav: false,             // Boolean: Show navigation, true or false
-  random: false,          // Boolean: Randomize the order of the slides, true or false
-  pause: false,           // Boolean: Pause on hover, true or false
-  pauseControls: true,    // Boolean: Pause when hovering controls, true or false
-  prevText: "Previous",   // String: Text for the "previous" button
-  nextText: "Next",       // String: Text for the "next" button
-  maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
-  navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
-  manualControls: "",     // Selector: Declare custom pager navigation
-  namespace: "rslides",   // String: Change the default namespace used
-  before: function(){},   // Function: Before callback
-  after: function(){}     // Function: After callback
-});	
-</script>
-
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="js/responsiveslides.min.js"></script>
-=======
+		<script type="type/javascript" src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Revalia' rel='stylesheet' type='text/css'>
->>>>>>> new login
 		<link rel="stylesheet" href="css/main.css"/>
 
 	</head>
@@ -98,22 +67,44 @@ $(".rslides").responsiveSlides({
 					</div>
 				<div id = "sign-up">
 					<div id="signup-box">
-						<button type="button" class="button"> Sign up </button>
+						<button type="button" class="signup_button"> Get Your Blog Now </button>
+					</div>
+				</div>
+
+				<div id ="writing-space">
+					<div id = "text2">
+						<h1>How to specify where ?</h1>
+						<p>There are many different ways to specify the target position.</p>
+						<ul>
+							These are:
+								<li>A raw number</li>
+								<li>A string('44', '100px', '+=30px', etc )</li>
+								<li>A DOM element (logically, child of the scrollable element)</li>
+								<li>A selector, that will be relative to the scrollable element</li>
+								<li>The string 'max' to scroll to the end.</li>
+								<li>A string specifying a percentage to scroll to that part of the container (f.e: 50% goes to to the middle).</li>
+								<li>A hash { top:x, left:y }, x and y can be any kind of number/string like above.</li>
+						</ul>
 					</div>
 				</div>
 			</div>
-			<div id = "footer_container">
-				<div class = "ContentArea">
-					<p class="Connect">
-					<ul id="SocialLinks">
-						<li><a href="mailto:ujjainia.2906@gmail.com">EMAIL</a></li>
-						<li>TWITTER</li>
-						<li><a href="http://facebook.com/anjali.ujjainia5">FACEBOOK</a></li>
-					</ul>
-				</div>
-			</div>
 			<div id="footer">
-				<!-- -->
+				<div class="container">
+					<div class="navigation">
+				
+						<a class = "buttons" href = meh>Help</a>
+						
+						<a class = "buttons" href = meh >Terms</a>
+						
+						<a class = "buttons" href = meh >About Us</a>
+						
+						<a class = "buttons" href = bleh >Licence</a>
+						
+						<a class = "buttons" href = Python >Contact</a>
+						
+					</div>
+					<div id = "copyright_line"> Copyright &copy; 2014 The Smarter Techies </div>
+				</div>
 			</div>
 		</div>
 	</body>
