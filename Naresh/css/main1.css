@@ -18,7 +18,7 @@ body{
 	border-bottom: 5px solid black;
 	position: fixed;
 	width: 100%;
-	z-index: 50;
+	z-index: 10010;
 	margin-bottom: 150px;
 	top: 0px;
 	background-color:#FFF;
@@ -126,11 +126,14 @@ color: DDDDDD;
 }
 
 
-#login-space, #signup-space{
+#signup-space{
+	border-bottom: 5px solid black;
+	height: 120px;	
+}
+#login-space{
 	border-bottom: 5px solid black;
 	height: 120px;
 }
-
 
 /*#login-box{
 	

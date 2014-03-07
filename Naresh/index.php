@@ -64,21 +64,13 @@
 			<script type="text/javascript" src="js/jquery.cslider.js"></script>
 			<script type="text/javascript">
 				$(function() {
-				
-					var $slider	= $('#da-slider');
-					
-					// initialize the slider
-					$slider.cslider();
-					
-					// example how to go to page 3 when clicking on a link
-					$('#testSlide3').on( 'click', function( event ) {
-					
-						$('#da-slider').cslider( 'page', 2 );
-						return false;
-					
-					} );
-				
+			
+				$('#da-slider').cslider({
+					autoplay	: true,
+					bgincrement	: 450
 				});
+			
+			});
 			</script>
 			<div id="wrapper">
 				<!-- 	wrapper will contain the main article section plus the side bar.
@@ -88,15 +80,15 @@
 				<div class="footer-container">
 					<div class="navigation">
 				
-						<a class = "buttons" href = meh>Help</a>
+						<a class = "buttons" href = "#">Help</a>
 						
-						<a class = "buttons" href = meh >Terms</a>
+						<a class = "buttons" href = "#" >Terms</a>
 						
-						<a class = "buttons" href = meh >About Us</a>
+						<a class = "buttons" href = "#" >About Us</a>
 						
-						<a class = "buttons" href = bleh >Licence</a>
+						<a class = "buttons" href = "#" >Licence</a>
 						
-						<a class = "buttons" href = Python >Contact</a>
+						<a class = "buttons" href = "#" >Contact</a>
 						
 					</div>
 					<div id = "copyright_line"> Copyright &copy; 2014 The Smarter Techies </div>
