@@ -2,52 +2,30 @@ html, body{
 margin: 0;
 padding: 0;
 }
-#container{
-	background-color:#000000;
-	height: 100%;
-}
-#navbar{
-	background-color: #596fa6;
-	padding : 0;
-	margin: 0;
-	overflow: hidden;
-	opacity: 0.5;
-}
-#wrapper{
-	background-image:url('../../images/thotDownLogo-0.jpg')
-	background-size: 300px 200px;
-	background-repeat: no-repeat;
-	background-position: center;
-	color: white;
+#footer{
+	text-align : center;
+	background-color: #666666;
+	padding: 5px;
 }
 
-#menu
-{
-	background-color: #30cf74;
-	list-style-type: none;
-	margin: 20px;
-	padding: 0px 10px;
-	overflow: hidden;
-}
-.item{
-	background-color: navy;
-	color: white;
+.navigation{
+	margin: 15px;
 	padding: 10px;
-	float: left;
-	text-align: center;
+}
+
+.buttons{
 	margin: 10px;
+	padding: 10px;
+	font-family: Levenim MT;
+	text-decoration: none;
+	color: #FFFFFF;
 }
-.submenu{
-	list-style-type: none;
-	text-align: left;
-	display: none;
-	position: relative;
-	padding: 5px;
-	}
-.item:hover .submenu{
-	display:block;
+
+.buttons:hover{
+color: yellow;
 }
-.item:hover{
-	background-color: white;
-	color:blue;
+
+#copyright_line{
+	font-family: Levenim MT;
+	color: #D9D9DC;
 }
