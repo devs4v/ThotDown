@@ -22,6 +22,7 @@
 						<li class="item yellowtext">Item1</li>
 						<li class="item">Item2</li>
 						<li class="item">Item3</li>
+						<li class="item">Valentine</li>
 					</ul>
 				</div>
 				<br/>
@@ -33,15 +34,246 @@
 					THOTDOWN :D :D :D :D
 				</h1>
 				<img src = "images/pen_01_446.jpg"/>
+				<div id="item1">
 				<h2>
-					This is smaller :D :P
+					Item1
+					<p>
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+					</p>
+					<p>
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+					</p>
+				</div>
+				<div id="Valentine Mashup">
+					<p>And here's the <a href = http://www.youtube.com/watch?v=UfhMcYY20gw >link</a> to the Valentine's mashup</p>
+				</div>
 				</h2>
+				
+				<div id="item2">
 				<h3>
-					This is even smaller :P
+					Item2
 				</h3>
+				<p>
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+				</p>
+				<p>
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+				</p>
+				</div>
+				
+				<div id="item3">
 				<h4>
-					This is even even more smaller :P
+					Item3
 				</h4>
+				<p>
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+				</p>
+				<p>
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+				</p>
+				<p>
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+				</p>
+				</div>
 				<h5>
 					Ok..lets see...I'm not sure about this one..ok..this is the point where Python is bouncing a ping pong ball around :P
 				</h5>
@@ -59,15 +291,15 @@
 				<div class="container">
 					<div class="navigation">
 				
-						<a class = "buttons" href = meh>Help</a>
+						<a class = "buttons" href = "#">Help</a>
 						
-						<a class = "buttons" href = meh >Terms</a>
+						<a class = "buttons" href = # >Terms</a>
 						
-						<a class = "buttons" href = meh >About Us</a>
+						<a class = "buttons" href = # >About Us</a>
 						
-						<a class = "buttons" href = bleh >Licence</a>
+						<a class = "buttons" href = # >Licence</a>
 						
-						<a class = "buttons" href = Python >Contact</a>
+						<a class = "buttons" href = # >Contact</a>
 						
 					</div>
 					<div id = "copyright_line"> Copyright &copy; 2014 The Smarter Techies </div>
