@@ -95,35 +95,7 @@ body{
 }
 
 
-/*.item:hover
-{
-color: DDDDDD;
-}
 
-.item:hover .submenu{
-	background-color: FF9C7A;
-	display: block;
-}
-
-.submenu{
-	margin:0;
-	padding:2px;
-	position: absolute;
-	margin-top:2px;
-	margin-left: -15px;
-	list-style-type: none;
-	display:none;
-}
-		
-.submenu-item{
-	margin: 0;
-	padding: 2px;
-}
-.submenu-item:hover{
-	background-color: white
-	
-}
-*/
 #wrapper{
 	margin: 0px auto;
 }
