@@ -25,8 +25,9 @@ background-color: orange;
 	font-size: 15px
 }
 
-.pic{
-	
+img{
+	max-width: 100%;
+	height: auto;
 }
 
 #footer{

@@ -48,7 +48,7 @@
 				<p>
 					This snake is found in Africa in southern Angola and northern Namibia.
 					Common names: Angolan python, Anchieta's dwarf python
-					Python anchietae is a nonvenomous python species endemic to southern Africa. No subspecies are currently recognized.[3] They may grow up to 183 cm (6 ft). The color pattern is a reddish-brown to brown to almost black ground, overlaid with irregular white or cream colored bands and spots. The belly is yellowish.
+					Python anchietae is a nonvenomous python species endemic to southern Africa. No subspecies are currently recognized. They may grow up to 183 cm (6 ft). The color pattern is a reddish-brown to brown to almost black ground, overlaid with irregular white or cream colored bands and spots. The belly is yellowish.
 				</p>	
 				</div>
 	
