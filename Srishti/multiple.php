@@ -178,6 +178,26 @@
 					Python rocks \m/
 				</p>
 				</div>
+				
+				<div class="heading">
+				<h2>
+					Python 12: The Python - Shivam Chaturvedi :D
+				</h2>
+				</div>
+				<div class="pic"><img src = "Python/pi.jpg"/></div>
+				<div class="text">
+				<p>
+					This is Python. :P
+					An amazing person leading us in this project. :P
+					BEWARE: He may crack jokes sometimes which may be out of our understanding. :P
+					He always motivates us and nevertheless, is always there for us when we need him :)
+					THANK YOU :)
+				</p>
+				<p>
+					-from the entire team :)
+				</p>
+				</div>
+				
 			</div>
 			</div>
 			
