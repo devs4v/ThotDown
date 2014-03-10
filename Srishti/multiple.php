@@ -21,7 +21,7 @@
 				<!-- 	wrapper will contain the main article section plus the side bar.
 						So, this in effect wraps the content box and the sidebar. -->
 			
-			</div>
+			
 				<br/>
 				<br/>
 				<br/>
@@ -178,8 +178,9 @@
 					Python rocks \m/
 				</p>
 				</div>
-		</div>
-		
+			</div>
+			</div>
+			
 				<br/>
 				<br/>
 				<br/>
