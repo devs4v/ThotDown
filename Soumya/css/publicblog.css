@@ -1,0 +1,154 @@
+html{
+font: 62.5% 'CartoGothicStdBook',Arial,sans-serif;}
+
+body{
+	margin: 0;
+	padding: 0;
+	color: rgb(221, 221, 221);
+	text-align: left;
+	font-size: 1.9em;
+	line-height: 1.65em;
+}
+/************
+HEADER
+************/
+#header{
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	height: 70px;
+	border-bottom: 10px solid black;
+	position: fixed;
+	width: 100%;
+	z-index: 50;
+	margin-bottom: 50px;
+	top: 0px;
+	background-color:#FFF;
+}
+#logo_header{
+	height:67px;
+	width:42px;
+	/*height:70%;
+	width:70%;*/
+}
+#main_logo{
+	/*background-image: url("pics/logo.png");*/
+	margin:5px 20px;
+	height:20px;
+	width:20px;
+	float:left;
+	display:block;
+	text-indent: 0px;
+	position:absolute;
+}
+
+#HeaderContent_area{
+	/*background-color: red*/
+	padding: 0;
+	/*height: 50px;
+	margin: 10px 0px 0px 0px;*/
+}
+
+#menu{
+	
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width: 450px;
+	float: right;
+	margin-top: 30px;
+	font-size:18px;
+}
+
+
+.item{
+	margin:0;
+	/*padding:3px 15px;*/
+	padding: 0px 15px 23px;
+	/*background-color:383838;*/
+	/*float:left;*/
+	line-height: 1.65em;
+	font-size: 1.0em;
+	display:inline;
+	color:black;
+	position: relative;
+	text-align: left;
+}
+/************
+CONTENT
+************/
+#wrapper{
+	padding: 5px;
+	margin-top: 75px;
+}
+#content
+{
+	padding: 20px;width: 900px;
+	background-color:#FDE8D7;
+	margin: auto;
+}
+.content-heading{
+	text-align: centre;
+	color: #FF9434;
+	padding: 5px;
+	font-family: Papyrus;
+	text-align: center;
+	font-size: 50px;
+}
+.content-writeup{
+	text-align: centre;
+	color: #000000;
+	padding: 5px;
+	font-family: Papyrus;
+	font-size: 15px;
+}
+.videos-border{
+	width: 644px;
+	margin: auto;
+	border: 5px solid;
+	border-style: groove;
+	box-shadow: 5px #1C1C1C;	
+}
+.videos{
+	width: 640px;
+	display: block;
+	/*margin: auto;*/
+	padding: 2px;
+}
+/************
+FOOTER
+************/
+#footer{
+	text-align : center;
+	/*background-color: #D9D9DC;*/
+	background-color: #666666;
+	padding: 5px;
+	height: 50px;
+}
+
+/*.navigation{
+	margin: 5px;
+	padding: 5px;
+}*/
+.container{
+	height:50px;
+}
+.buttons{
+	margin: 0px 5px;
+	padding: 0px 10px;
+	height: 10px;
+	font-family: Levenim MT;
+	font-size: 20px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.buttons:hover{
+color: yellow;
+}
+
+#copyright_line{
+	font-family: Levenim MT;
+	color: #D9D9DC;
+	font-size: 10px;
+}
