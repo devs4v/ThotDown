@@ -1,0 +1,38 @@
+/* ex5-jqueryscrolltodemo */
+*{
+	font-family: "trebuchet ms", sans-serif;
+	font-size: 14px;
+}
+a{
+	text-decoration: none;
+	color: #77F;
+}
+a:hover{
+	text-decoration: underline;
+}
+#menu{
+	list-style-type: none;
+}
+.item, .return{
+	float: left;
+	padding: 10px;
+	margin: 0 10px;
+	font-size: 24px;
+	background-color: #DFDFDF;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.item:hover{
+	background-color: #EEE;
+}
+p{
+	padding: 10px;
+	margin: 20px 2px;
+}
+#paras{
+	clear:both;
+}
+.return{
+	float: right;
+	clear: both;
+}
