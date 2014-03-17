@@ -1,13 +1,21 @@
 <?php /* Sample page */ ?>
 <html>
 	<head>
-		<title>Welcome here</title>
+		<title>Welcome here(scrollTo)</title>
 		<meta charset="UTF-8"/>
 		<meta name="author" content="Shivam Chaturvedi -- The Smarter Techie"/>
 		<meta name="keywords" content="design for the new blogging platform"/>
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 		<link rel="stylesheet" href="css/main.css"/>
+		
+		<!-- Plugins -->
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+		<!-- Custom code -->
+		<script type="text/javascript" src="js/ex5-jqueryscrolltodemo.js"></script>
+		<!-- Note the order of the scripts...it's important -->
+		
 	</head>
 	<body>
 		<div id="container">
@@ -19,10 +27,9 @@
 						So, this in effect wraps the content box and the sidebar. -->
 				<div id="menuwrap">
 					<ul id="menu">
-						<li class="item yellowtext">Item1</li>
-						<li class="item">Item2</li>
-						<li class="item">Item3</li>
-						<li class="item">Valentine</li>
+						<li class="item yellowtext"><a href="#item1">Item1</a></li>
+						<li class="item"><a href="#item2">Item2</a></li>
+						<li class="item"><a href="#item3">Item3</a></li>
 					</ul>
 				</div>
 				<br/>
@@ -34,74 +41,348 @@
 					THOTDOWN :D :D :D :D
 				</h1>
 				<img src = "images/pen_01_446.jpg"/>
+				<div id="paras">
 				<div id="item1">
 				<h2>
 					Item1
-					<p>
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-					</p>
-					<p>
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-						useless text
-					</p>
-				</div>
-				<div id="Valentine Mashup">
-					<p>And here's the <a href = http://www.youtube.com/watch?v=UfhMcYY20gw >link</a> to the Valentine's mashup</p>
-				</div>
 				</h2>
+					<p>
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+					</p>
+					<p>
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+					</p>
+					<p>
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+					</p>
+					<p>
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+					</p>
+					<p>
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+					</p>
+					<p>
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+					</p>
+					<p>
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+					</p>
+					<p>
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+					</p>
+					<p>
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+					</p><p>
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+					</p>
+					<p>
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+						useless text
+					</p>
+					<h5 class="return"><a href="#menu">Return to top</a></h5>
+				</div>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				
 				
 				<div id="item2">
 				<h3>
@@ -171,12 +452,370 @@
 					some more useless text
 					some more useless text
 				</p>
+				<p>
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+				</p>
+				<p>
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+				</p>
+				<p>
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+				</p>
+				<p>
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+				</p>
+				<p>
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+				</p>
+				<p>
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+					some more useless text
+				</p>
+				<h5 class="return"><a href="#menu">Return to top</a></h5>
 				</div>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
 				
 				<div id="item3">
 				<h4>
 					Item3
 				</h4>
+				<p>
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+				</p>
+				<p>
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+				</p>
+				<p>
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+				</p>
+				<p>
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+				</p>
+				<p>
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+					even more useless text
+				</p>
 				<p>
 					even more useless text
 					even more useless text
@@ -280,12 +919,13 @@
 				<h6>
 					This is the smallest :P...this is tiiiiiiinnnnnny.. :D
 				</h6>
+				<h5 class="return"><a href="#menu">Return to top</a></h5>
 	
 				<br/>
 				<br/>
 				<br/>
 				<br/>
-				
+			</div>	
 			</div>
 			<div id="footer">
 				<div class="container">
