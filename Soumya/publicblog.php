@@ -31,16 +31,12 @@
 					<h4 class="content-writeup">TVF : India's 1st Online Youth Entertainment Network<br>
 					TheViralFever.Com is India's 1st Organized OnlineTV, where you can watch Regular Shows created especially for the young audience.<br>
 					SUBSCRIBE for your weekly dose of Humor & Q-Tiyapa.</h4>
-					<div class="videos-border">
-						<div class="videos">
+					<div class="videos">
 							<iframe width="640" height="360" src="//www.youtube.com/embed/qR9y6hkXjDs?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-						</div>
 					</div>
 					<p><p><p>
-					<div class="videos-border">
-						<div class="videos">
+					<div class="videos">
 							<iframe width="640" height="360" src="//www.youtube.com/embed/ZYDGmkjK9pI?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-						</div>
 					</div>
 					<p><p><p>
 					<h4 class="content-writeup">Published on Jun 18, 2013<br>
@@ -50,10 +46,8 @@
 					<p>
 					Music video by Lorde performing Royals. (C) 2013 Universal Music NZ Ltd.<br>
 					You can also watch the video at: <a href="http://www.youtube.com/watch?feature=player_detailpage&v=nlcIKh6sBtc">http://www.youtube.com/watch?feature=player_detailpage&v=nlcIKh6sBtc</a><br></h4>
-					<div class="videos-border">
-						<div class="videos">
+					<div class="videos">
 							<iframe width="640" height="360" src="//www.youtube.com/embed/nlcIKh6sBtc?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-						</div>
 					</div>
 					<p><p><p>
 				</div>

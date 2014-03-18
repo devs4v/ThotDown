@@ -89,7 +89,7 @@ CONTENT
 }
 .content-heading{
 	text-align: centre;
-	color: #FF9434;
+	color: #82C7FF;
 	padding: 5px;
 	font-family: Papyrus;
 	text-align: center;
@@ -102,17 +102,22 @@ CONTENT
 	font-family: Papyrus;
 	font-size: 15px;
 }
-.videos-border{
+/*.videos-border{
 	width: 644px;
 	margin: auto;
-	border: 5px solid;
-	border-style: groove;
-	box-shadow: 5px #1C1C1C;	
-}
+	/*border-style: groove;*/
+}*/
 .videos{
-	width: 640px;
+	width: 650px;
+	margin: auto;
+}
+.videos iframe{
+	margin: auto;
+	border: 5px solid;
+	box-shadow: 5px #1C1C1C;
+	/*border-style: solid;*/
+	border-color: #FF8787;
 	display: block;
-	/*margin: auto;*/
 	padding: 2px;
 }
 /************
