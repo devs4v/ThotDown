@@ -34,11 +34,11 @@
 					<div class="videos">
 							<iframe width="640" height="360" src="//www.youtube.com/embed/qR9y6hkXjDs?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
 					</div>
-					<p><p><p>
+					<br><br><br>
 					<div class="videos">
 							<iframe width="640" height="360" src="//www.youtube.com/embed/ZYDGmkjK9pI?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
 					</div>
-					<p><p><p>
+					<br><br><br>
 					<h4 class="content-writeup">Published on Jun 18, 2013<br>
 					Download Lorde's album "Pure Heroine (Extended Edition)" featuring "Royals" now:<br>
 					iTunes: <a href="http://smarturl.it/PureHeroineExtended">http://smarturl.it/PureHeroineExtended</a><br>
@@ -49,7 +49,7 @@
 					<div class="videos">
 							<iframe width="640" height="360" src="//www.youtube.com/embed/nlcIKh6sBtc?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
 					</div>
-					<p><p><p>
+					<br><br><br>
 				</div>
 			</div>
 			<div id="footer">
