@@ -27,7 +27,7 @@
 	<body>
 		<div id="container">
 			<div id="header">
-				<!-- Head section. Can contain the toolbar or the nav bar if needed or can be merged with the main content area-->
+				<!-- Head section. Can contain the toolbar or the nav bar if needed or can be merged with the main content areas-->
 			</div>
 					<div id="da-slider" class="da-slider">
 						<div class="da-slide">
