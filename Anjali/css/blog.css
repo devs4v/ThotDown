@@ -1,0 +1,89 @@
+html,body
+{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.Blog-container
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 45%;
+	background-color: rgb(226,226,235);
+}
+
+.Title-box
+{
+	font-Blog-text: 20px;
+	width: 100%;
+	/*width: 50%;*/
+	padding: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1.Blog-title
+{
+	/*color: rgb(30,90,113);*/
+	color:black;
+	text-align: center;
+	font-family: 'Sigmar One', cursive;
+	color: black;
+}
+
+.Subtitle-box
+{
+	font-Blog-text: 17px;
+}
+.subtitle
+{
+	width: 100%;
+	font-family: 'Averia Sans Libre', cursive;
+	color:black;
+	text-align: center;
+}
+
+.date-box
+{
+	text-decoration: underline;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+	text-align: left;
+}
+
+.Blog{
+	/*border: 2px solid white;*/
+	
+	padding: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.describe{
+	font-family: 'Averia Sans Libre', cursive;
+	color:black;
+	text-align: center;
+	font-size: 18px;
+	
+}
+
+
+.Blog-text img{	
+	width: 500px;
+	border: 2px solid;
+	box-shadow: 5px 5px 5px #545454;
+}
+
+.Blog-text{
+	
+	margin: 20px;
+	padding:10px;
+}
+
+.describe.alignment{
+	width:50%;
+}

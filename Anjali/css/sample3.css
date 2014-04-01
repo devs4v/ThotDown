@@ -18,7 +18,7 @@ body{
 }
 
 #heading{
-	border: 2px solid whiteb;
+	/*border: 2px solid white;*/
 	width: 50%;
 	padding: 10px;
 	text-align: center;
@@ -34,7 +34,7 @@ body{
 }
 
 #wrapper{
-	border: 2px solid whiteb;
+	/*border: 2px solid white;*/
 	width: 50%;
 	padding: 10px;
 	text-align: center;
