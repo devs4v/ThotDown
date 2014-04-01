@@ -15,16 +15,29 @@
 
 	</head>
 	<body>
-		<div class="container">
+		<div id="container">
 			<div id="heading">
 				<h1>FRIENDS</h1>
 				<div class="describe">Walking with a friend in the dark is better than walking alone in the light.</div>
 			</div>
-			<div class="size"><img src="pics/frnds2.jpg"/>
-			</div>
-			<div class="size"><img src="pics/frnds1.jpg"/>
-			</div>
-			<div class="size"><img src="pics/frnds3.jpg"/>
+			<div id="wrapper">
+				<div class="size">
+					<img src="pics/frnds2.jpg"/>
+				</div>
+				<div class="describe">
+					“We'll be Friends Forever, won't we, Pooh?' asked Piglet. Even longer,' Pooh answered.”
+				</div>
+				<div class="size">
+					<img src="pics/frnds1.jpg"/>
+				</div>
+				<div class="describe">
+					“Friendship is the hardest thing in the world to explain. It's not something you learn in school. But if you haven't learned the meaning of friendship, you really haven't learned anything.” </div>
+				<div class="size">
+					<img src="pics/frnds3.jpg"/>
+				</div>
+				<div class="describe">
+					“Only a true best friend can protect you from your immortal enemies.” 
+				</div>
 			</div>
 		</div>
 	</body>

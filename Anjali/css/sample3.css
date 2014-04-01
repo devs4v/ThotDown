@@ -13,7 +13,7 @@ body{
 	/*background: linear-gradient(  #070707, #292929);*/
 }
 
-.container{
+#container{
 	background: black;
 }
 
@@ -33,6 +33,15 @@ body{
 	color: #ffffff;
 }
 
+#wrapper{
+	border: 2px solid whiteb;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
 .describe{
 	font-family: 'Averia Sans Libre', cursive;
 	color:black;
@@ -49,8 +58,8 @@ body{
 	text-indent: 0px;
 	position:absolute;
 }
-.size img{
-	width: 50%;
+.size img{	
+	width: 500px;
 	border: 2px solid;
 	box-shadow: 5px 5px 5px #545454;
 }
@@ -59,4 +68,8 @@ body{
 	text-align: center;
 	margin: 20px;
 	padding:10px;
+}
+
+.describe.alignment{
+	width:50%;
 }
