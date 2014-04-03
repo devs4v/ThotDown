@@ -6,12 +6,12 @@ html,body
 
 .Blog-container
 {
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 20px;
 	width: 45%;
 	background-color: #EF5551;
 	display: block;
 	margin: auto;
+	font-family: "Comic Sans MS";
 }
 
 h1.Blog-title
@@ -22,14 +22,14 @@ h1.Blog-title
 .blog-text
 {
 	color: #2A2C38;
-	font-family:"Georgia";
+	font-family: "Comic Sans MS";
 }
 p.pink
 {
 	color: #003C53;
 }
 
-h3.pink
+h4.pink
 {
 	color: #1C1B24;
 }
@@ -58,7 +58,16 @@ h3.pink
 	width: 100%;
 	text-align: left;
 }
+/*.showmore, .showless{
+	cursor: pointer;
+	color: blue;
+	text-decoration: none;
+	text-align: right;
+}
 
+.showmore:hover, .showless:hover{
+	text-decoration: underline;
+}*/
 iframe.videos
 {
 	width:500;
@@ -66,13 +75,49 @@ iframe.videos
 	margin: auto;
 	display: block;
 }
-
-p.video-description
-{
-	width:500;
+.vid-wrap{
+	width:500; 
 	margin: auto;
-	display: block;
 	font-size: 14px;
-	font-family: "Comic Sans MS"
+	font-family: "Comic Sans MS";
+	align: right;
+}
+.video-description
+{
+	overflow: hidden;
 	/*text-align:center;*/
+}
+/*.showmore, .showless{
+	display: block;
+	margin-right: 10px;
+	cursor: pointer;
+	text-decoration: none;
+	color=black;
+	text-align: right;
+	border:1px solid #c1c1d4; -webkit-border-radius: 1px; -moz-border-radius: 1px;border-radius: 1px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 3px 3px 3px 3px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(226,226,235,0.3);font-weight:bold; color: #FFFFFF;
+ background-color: #E2E2EB; background-image: -webkit-gradient(linear, left top, left bottom, from(#E2E2EB), to(#2A2C38));
+ background-image: -webkit-linear-gradient(top, #E2E2EB, #2A2C38);
+ background-image: -moz-linear-gradient(top, #E2E2EB, #2A2C38);
+ background-image: -ms-linear-gradient(top, #E2E2EB, #2A2C38);
+ background-image: -o-linear-gradient(top, #E2E2EB, #2A2C38);
+ background-image: linear-gradient(to bottom, #E2E2EB, #2A2C38);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#E2E2EB, endColorstr=#2A2C38);
+}*/
+.showmore, .showless {
+	width: 70px;
+	padding: 4px 4px;
+	display: block;
+	text-align:center;
+	font-family: 'Bree Serif', serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #000;
+	text-shadow: 0px 1px 0 rgba(0,0,0,0.25);
+	
+	background: #E2E2EB;
+	border: 1px solid #46b3d3;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.showmore:hover, .showless:hover{
+	background: #627C82;
 }
