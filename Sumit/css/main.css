@@ -4,7 +4,7 @@ html,body
 	padding: 0;
 }
 
-.Blog-container
+.post
 {
 	padding-left: 10px;
 	padding-right: 10px;
@@ -30,7 +30,7 @@ h3.pink
 {
 	color: rgb(235,89,81);
 }
-.Title-box
+.post-title
 {
 	font-size: 20px;
 	width: 100%;

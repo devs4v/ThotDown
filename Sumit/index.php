@@ -26,13 +26,13 @@
 	</head>
 
 	<body>
-		<div class="Blog-container">
+		<div class="post">
 			
-			<div class="Title-box">
+			<div class="post-title">
 				<h1 class="Blog-title"><u>This is Heading</u></h1>
 			</div>
 
-			<div class="Subtitle-box">
+			<div class="post-subtitle">
 				<div class="subtitle">
 					<h3 class="pink">This is the subtitle + random text + more random text</h3>
 				</div>
@@ -42,7 +42,7 @@
 				</div>
 			</div>
 
-			<div class="Blog">
+			<div class="post-content">
 				<p class="blog-text">How good is the education being provided by an academic Institution? While there can be sophesticated ways of assessing the quality (e.g. by having peope who understand education and its goals assess the quality by looking at the faculty, courses, method of teaching, etc.) often quality of the overall education is assessed by how well their graduates do in their careers. And an indicator of this is how good a start the graduates get, i.e. the placement record of Institute.</br></br>
 
 				Most good institutions have good placement records. While good institutions have good placement/careers statistics, there has been a perpetual debate/doubt whether this outcome is due to the fact that these institutes, being higly selective, take in the brightest of the students (if you take the top 5% of the students, of course they will do well – the argument goes), or whether it is due to the value of education they provide.  All of us academics in top institutions believe that while high quality of intake has a role to play, the quality of education provided at these institutions is the key determining factor in the success of these students. Unfortunately, this point cannot be supported by data as it is not possible get the desired data (e.g. average students taken in the top institutions and provided good education and then seeing how they do.)</br></br>
@@ -60,16 +60,16 @@
 				The final outcome in numbers: The average salary offer is about Rs 7 Lac (twice that of a regular software job), with majority getting offers of more than Rs 6 Lac, and about 10%  getting offers of more than Rs 10 Lac.</br></br>
 			</div>
 
-			<div class="author-time-box">
+			<div class="post-author">
 				<p class="pink"><u><b>Posted By :</b></u></p>
 				<p>YO YO..Honey Singh @ 4:20 pm</p>
 			</div>	
 
-			<div class="MBTFP">
+			<div class="post-social">
 				<p>M B T F P</p>
 			</div>
 
-			<div class="Labels">
+			<div class="post-labels">
 				<p class="pink"><b><u>Labels :</b></u></p>
 				<p>IIITD, Placements, Education</p>
 			</div>
