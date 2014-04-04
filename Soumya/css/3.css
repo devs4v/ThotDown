@@ -4,7 +4,7 @@ html,body
 	padding: 0;
 }
 
-.Blog-container
+.post
 {
 	padding: 20px;
 	width: 45%;
@@ -14,8 +14,11 @@ html,body
 	font-family: "Comic Sans MS";
 }
 
-h1.Blog-title
+h1.post-title
 {
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
 	color: #003C53;
 }
 
@@ -24,23 +27,23 @@ h1.Blog-title
 	color: #2A2C38;
 	font-family: "Comic Sans MS";
 }
-p.pink
+p.post-author
 {
 	color: #003C53;
 }
 
-h4.pink
+h4.post-subtitle
 {
 	color: #1C1B24;
 }
-.Title-box
+.post-title
 {
 	font-size: 20px;
 	width: 100%;
 	text-align: center;
 }
 
-.Subtitle-box
+.post-subtitle
 {
 	font-size: 17px;
 }
@@ -50,7 +53,7 @@ h4.pink
 	text-align: center;
 }
 
-.date-box
+.post-stamp
 {
 	text-decoration: underline;
 	margin-top: 30px;
@@ -75,14 +78,14 @@ iframe.videos
 	margin: auto;
 	display: block;
 }
-.vid-wrap{
+.post-video{
 	width:500; 
 	margin: auto;
 	font-size: 14px;
 	font-family: "Comic Sans MS";
 	align: right;
 }
-.video-description
+.video-desc
 {
 	overflow: hidden;
 	/*text-align:center;*/
