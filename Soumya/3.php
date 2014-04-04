@@ -9,12 +9,12 @@
 		<link rel="stylesheet" href="css/3.css"/>
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/more-less.js"></script>
-		</head>
+	</head>
 
 	<body>
 		<div class="post">
 			<div class="post-title">
-				<h1><u>Qtiyapa</u></h1>
+				<h1>Qtiyapa</h1>
 			</div>
 			<div class="post-subtitle">
 				<div class="subtitle">
@@ -108,7 +108,7 @@
 				The final outcome in numbers: The average salary offer is about Rs 7 Lac (twice that of a regular software job), with majority getting offers of more than Rs 6 Lac, and about 10%  getting offers of more than Rs 10 Lac.</br></br>
 				</p>
 			<div class="post-video">
-			<iframe class="videos" src="//www.youtube.com/embed/5zE1gBYVaVk?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+			<iframe src="//www.youtube.com/embed/5zE1gBYVaVk?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
 			<div class="video-desc">
 				Download Lorde's album "Pure Heroine (Extended Edition)" featuring "Royals" now:<br>
 				iTunes: <a href="http://smarturl.it/PureHeroineExtended">http://smarturl.it/PureHeroineExtended</a><br>
@@ -117,15 +117,14 @@
 			<div class="showmore">Show More</div>
 			<div class="showless">Show Less</div>
 			</div>
-			<div class="post-author">
-				<p><u><b>Posted By :</b></u></p>
+			<p>Posted By :</p>
 				<p>YO YO..Honey Singh @ 4:20 pm</p>
 			</div>
 			<div class="post-social">
 				<p>M B T F P</p>
 			</div>
 			<div class="post-labels">
-				<p><b><u>Labels :</b></u></p>
+				<p>Labels :</p>
 				<p>IIITD, Placements, Education</p>
 		</div>
 	</body>
