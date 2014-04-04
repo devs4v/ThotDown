@@ -13,35 +13,35 @@
 
 	</head>
 	<body>
-		<div class="Blog-container">
+		<div class="post">
 			
-			<div class="Title-box">
+			<div class="post-title">
 				<h1 class="Blog-title">FRIENDS</h1>
 			</div>
 
-			<div class="Subtitle-box">
+			<div class="post-subtitle">
 				<div class="subtitle"> Walking with a friend in the dark is better than walking alone in the light.
 				</div>
 
-				<div class="date-box">
+				<div class="post-stamp">
 					<p>Thursday, April 3, 2014</p>
 				</div>
 			</div>
 
-			<div class="Blog">
+			<div class="post-content">
 
-				<div class="Blog-text">
+				<div class="post-content-text">
 					<img src="pics/frnds2.jpg"/>
 				</div>
 				<div class="describe">
 					“We'll be Friends Forever, won't we, Pooh?' asked Piglet. Even longer,' Pooh answered.”
 				</div>
-				<div class="Blog-text">
+				<div class="post-content-text">
 					<img src="pics/frnds1.jpg"/>
 				</div>
 				<div class="describe">
 					“Friendship is the hardest thing in the world to explain. It's not something you learn in school. But if you haven't learned the meaning of friendship, you really haven't learned anything.” </div>
-				<div class="Blog-text">
+				<div class="post-content-text">
 					<img src="pics/frnds3.jpg"/>
 				</div>
 				<div class="describe">
@@ -50,16 +50,16 @@
 				
 			</div>
 
-			<div class="author-time-box">
+			<div class="post-author">
 				<p class="pink"><u><b>Posted By :</b></u></p>
 				<p>YO YO..Honey Singh @ 4:20 pm</p>
 			</div>	
 
-			<div class="MBTFP">
+			<div class="post-social">
 				<p>M B T F P</p>
 			</div>
 
-			<div class="Labels">
+			<div class="post-labels">
 				<p class="pink"><b><u>Labels :</b></u></p>
 				<p>IIITD, Placements, Education</p>
 			</div>

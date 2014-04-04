@@ -5,7 +5,7 @@ html,body
 	
 }
 
-.Blog-container
+.post
 {
 	padding-left: 10px;
 	padding-right: 10px;
@@ -13,7 +13,7 @@ html,body
 	background-color: rgb(226,226,235);
 }
 
-.Title-box
+.post-title
 {
 	font-Blog-text: 20px;
 	width: 100%;
@@ -33,7 +33,7 @@ h1.Blog-title
 	color: black;
 }
 
-.Subtitle-box
+.post-subtitle
 {
 	font-Blog-text: 17px;
 }
@@ -45,7 +45,7 @@ h1.Blog-title
 	text-align: center;
 }
 
-.date-box
+.post-stamp
 {
 	text-decoration: underline;
 	margin-top: 30px;
@@ -54,7 +54,7 @@ h1.Blog-title
 	text-align: left;
 }
 
-.Blog{
+.post-content{
 	/*border: 2px solid white;*/
 	
 	padding: 10px;
@@ -72,13 +72,13 @@ h1.Blog-title
 }
 
 
-.Blog-text img{	
+.post-content-text img{	
 	width: 500px;
 	border: 2px solid;
 	box-shadow: 5px 5px 5px #545454;
 }
 
-.Blog-text{
+.post-content-text{
 	
 	margin: 20px;
 	padding:10px;
