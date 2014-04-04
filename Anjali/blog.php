@@ -16,7 +16,7 @@
 		<div class="post">
 			
 			<div class="post-title">
-				<h1 class="Blog-title">FRIENDS</h1>
+				<h1 class="blog-title">FRIENDS</h1>
 			</div>
 
 			<div class="post-subtitle">
