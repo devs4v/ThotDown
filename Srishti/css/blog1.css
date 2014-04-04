@@ -4,11 +4,11 @@ html,body
 	padding: 0;
 }
 
-.Title-box
+.post-title
 {
 	font-family: Chiller;
 }
-.Blog-container
+.post
 {
 	padding-left: 10px;
 	padding-right: 10px;
@@ -21,7 +21,7 @@ h1.Blog-title
 	color: #1C1B24;
 }
 
-p.blog-text
+p.post-content-text
 {
 	color: rgb(28,27,36);
 	font-family: Berlin Sans FB;
@@ -32,19 +32,19 @@ p.pink
 	color: rgb(235,89,81);
 }
 
-h3.pink
+h3
 {
 	color: #1C1B24;
 	font-family: Berlin Sans FB;
 }
-.Title-box
+.post-title
 {
 	font-size: 20px;
 	width: 100%;
 	text-align: center;
 }
 
-.Subtitle-box
+.post-subtitle
 {
 	font-size: 17px;
 }
@@ -54,7 +54,7 @@ h3.pink
 	text-align: center;
 }
 
-.date-box
+.post-stamp
 {
 	text-decoration: underline;
 	margin-top: 30px;
@@ -63,7 +63,7 @@ h3.pink
 	text-align: left;
 }
 
-.sub-heading{
+h2{
 	text-align: centre;
 	background-color: #1C1B24;
 	padding: 5px;
@@ -72,7 +72,7 @@ h3.pink
 	color: E2E2EB;
 }
 
-.pic img{
+.post-img img{
 	width:500px;
 	height:500px;
 	display: block;
