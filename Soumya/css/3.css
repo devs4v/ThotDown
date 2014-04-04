@@ -61,16 +61,7 @@ h4.post-subtitle
 	width: 100%;
 	text-align: left;
 }
-/*.showmore, .showless{
-	cursor: pointer;
-	color: blue;
-	text-decoration: none;
-	text-align: right;
-}
 
-.showmore:hover, .showless:hover{
-	text-decoration: underline;
-}*/
 iframe.videos
 {
 	width:500;
@@ -88,23 +79,8 @@ iframe.videos
 .video-desc
 {
 	overflow: hidden;
-	/*text-align:center;*/
 }
-/*.showmore, .showless{
-	display: block;
-	margin-right: 10px;
-	cursor: pointer;
-	text-decoration: none;
-	color=black;
-	text-align: right;
-	border:1px solid #c1c1d4; -webkit-border-radius: 1px; -moz-border-radius: 1px;border-radius: 1px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 3px 3px 3px 3px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(226,226,235,0.3);font-weight:bold; color: #FFFFFF;
- background-color: #E2E2EB; background-image: -webkit-gradient(linear, left top, left bottom, from(#E2E2EB), to(#2A2C38));
- background-image: -webkit-linear-gradient(top, #E2E2EB, #2A2C38);
- background-image: -moz-linear-gradient(top, #E2E2EB, #2A2C38);
- background-image: -ms-linear-gradient(top, #E2E2EB, #2A2C38);
- background-image: -o-linear-gradient(top, #E2E2EB, #2A2C38);
- background-image: linear-gradient(to bottom, #E2E2EB, #2A2C38);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#E2E2EB, endColorstr=#2A2C38);
-}*/
+
 .showmore, .showless {
 	width: 70px;
 	padding: 4px 4px;

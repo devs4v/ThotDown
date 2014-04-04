@@ -8,17 +8,6 @@
 		<meta name="keywords" content="design for the new blogging platform"/>
 		<link rel="stylesheet" href="css/3.css"/>
 		<script type="text/javascript" src="js/jquery.js"></script>
-		<!--<style type="text/css">
-			.showmore, .showless{
-				cursor: pointer;
-				color: blue;
-				text-decoration: none;
-				text-align: right;
-			}
-			.showmore:hover, .showless:hover{
-				text-decoration: underline;
-			}
-		</style>-->
 		<script type="text/javascript" src="js/more-less.js"></script>
 		</head>
 
@@ -31,7 +20,7 @@
 				<div class="subtitle">
 					<h4>TVF : India's 1st Online Youth Entertainment Network<br>
 						TheViralFever.Com is India's 1st Organized OnlineTV, where you can watch Regular Shows created especially for the young audience.<br>
-						SUBSCRIBE for your weekly dose of Humor & Q-Tiyapa.</h3>
+						SUBSCRIBE for your weekly dose of Humor & Q-Tiyapa.</h4>
 				</div>
 				<div class="post-stamp">
 					<p>Sunday, January 15, 2013</p>
@@ -136,7 +125,7 @@
 				<p>M B T F P</p>
 			</div>
 			<div class="post-labels">
-				<p class="pink"><b><u>Labels :</b></u></p>
+				<p><b><u>Labels :</b></u></p>
 				<p>IIITD, Placements, Education</p>
 		</div>
 	</body>
