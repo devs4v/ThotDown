@@ -15,18 +15,13 @@ html,body
 
 .post-title
 {
-	font-Blog-text: 20px;
+	font-size: 20px;
 	width: 100%;
 	/*width: 50%;*/
 	padding: 10px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-h1.Blog-title
-{
-	/*color: rgb(30,90,113);*/
 	color:black;
 	text-align: center;
 	font-family: 'Sigmar One', cursive;
@@ -36,9 +31,6 @@ h1.Blog-title
 .post-subtitle
 {
 	font-Blog-text: 17px;
-}
-.subtitle
-{
 	width: 100%;
 	font-family: 'Averia Sans Libre', cursive;
 	color:black;
@@ -86,4 +78,7 @@ h1.Blog-title
 
 .describe.alignment{
 	width:50%;
+}
+.post-labels{
+		text-decoration: underline;
 }
