@@ -8,40 +8,28 @@
 		<meta name="keywords" content="design for the new blogging platform"/>
 		<link rel="stylesheet" href="css/3.css"/>
 		<script type="text/javascript" src="js/jquery.js"></script>
-		<!--<style type="text/css">
-			.showmore, .showless{
-				cursor: pointer;
-				color: blue;
-				text-decoration: none;
-				text-align: right;
-			}
-			.showmore:hover, .showless:hover{
-				text-decoration: underline;
-			}
-		</style>-->
 		<script type="text/javascript" src="js/more-less.js"></script>
 		</head>
 
 	<body>
-		<div class="Blog-container">
-			<div class="Title-box">
-				<h1 class="Blog-title"><u>Qtiyapa</u></h1>
+		<div class="post">
+			<div class="post-title">
+				<h1><u>Qtiyapa</u></h1>
 			</div>
-			<div class="Subtitle-box">
+			<div class="post-subtitle">
 				<div class="subtitle">
-					<h4 class="pink">TVF : India's 1st Online Youth Entertainment Network<br>
+					<h4>TVF : India's 1st Online Youth Entertainment Network<br>
 						TheViralFever.Com is India's 1st Organized OnlineTV, where you can watch Regular Shows created especially for the young audience.<br>
-						SUBSCRIBE for your weekly dose of Humor & Q-Tiyapa.</h3>
+						SUBSCRIBE for your weekly dose of Humor & Q-Tiyapa.</h4>
 				</div>
-				<div class="date-box">
+				<div class="post-stamp">
 					<p>Sunday, January 15, 2013</p>
 				</div>
 			</div>
-			<div class="Blog">
-				<div class="blog-text">
-				<div class="vid-wrap">
+				<div class="post-content">
+				<div class="post-video">
 					<iframe class="videos"src="//www.youtube.com/embed/5zE1gBYVaVk" frameborder="0" allowfullscreen></iframe>
-					<div class="video-description" style="height:200px;">
+					<div class="video-desc" style="height:200px;">
 					<br>
 					"SomEdaY, I waNna GrOW oLd wiV
 					SAm1 ii LuRv && SAm1 WoSz LuRvE
@@ -99,13 +87,12 @@
 					<div class="showmore">Show More</div>
 					<div class="showless">Show Less</div>
 				</div>
-				<div class="more"><p>How good is the education being provided by an academic Institution? While there can be sophesticated ways of assessing the quality (e.g. by having peope who understand education and its goals assess the quality by looking at the faculty, courses, method of teaching, etc.) often quality of the overall education is assessed by how well their graduates do in their careers. And an indicator of this is how good a start the graduates get, i.e. the placement record of Institute.</br></br>
+				<p>How good is the education being provided by an academic Institution? While there can be sophesticated ways of assessing the quality (e.g. by having peope who understand education and its goals assess the quality by looking at the faculty, courses, method of teaching, etc.) often quality of the overall education is assessed by how well their graduates do in their careers. And an indicator of this is how good a start the graduates get, i.e. the placement record of Institute.</br></br>
 				Most good institutions have good placement records. While good institutions have good placement/careers statistics, there has been a perpetual debate/doubt whether this outcome is due to the fact that these institutes, being higly selective, take in the brightest of the students (if you take the top 5% of the students, of course they will do well – the argument goes), or whether it is due to the value of education they provide.  All of us academics in top institutions believe that while high quality of intake has a role to play, the quality of education provided at these institutions is the key determining factor in the success of these students. Unfortunately, this point cannot be supported by data as it is not possible get the desired data (e.g. average students taken in the top institutions and provided good education and then seeing how they do.)</br></br>
 				At IIIT Delhi, as an Institute which has now evolved into a sought-after, high quality institution, we have a limited data from the first batch to shed some light to this debate. In 2008 the Institute was started – I was appointed the Director (employee #001) in Aug, and we had to start the new session in Sept. As all the admissions were over, the “best” students were already gone – even if they were not, why will they join an Institute that just started and had no faculty or facilities. In any case, we did an entrance test with an eligibility criteria being 60% in class XII.  About 350 students applied, finally around 250 or so appeared, of which we selected 60 – and many of those who were offered did not accept it. Effectively, almost one in every three students who wanted was admitted.   (Now that we have established ourselves as a top Institution,  of those who apply – and only those above 80% in class XII can apply – about 6% are selected.)</br></br></p>
-				</div>
-				<div class="vid-wrap">
+				<div class="post-video">
 				<iframe class="videos" src="//www.youtube.com/embed/Jdi7SU_CMrI" frameborder="0" allowfullscreen></iframe>
-				<div class="video-description">
+				<div class="video-desc">
 					wow:)<br>
 					Category - Music <br>
 					License - Standard YouTube License<br>
@@ -120,9 +107,9 @@
 				Almost every company that visited, despite their initial doubts, recruited some students. Here we are talking about tech companies that generally have a rigorous selection process – test, multiple rounds of intereviews, etc. Some companies were so happy by the quality of graduating students that they recruited far more than what their best case scenario was (as we were told.) One company, which came for recruiting for their research lab, then called in their other product divisions to recurit. Some highly selective companies which visit few campuses in the country told us that they felt that the graduates are as good as other places they visit.</br></br>
 				The final outcome in numbers: The average salary offer is about Rs 7 Lac (twice that of a regular software job), with majority getting offers of more than Rs 6 Lac, and about 10%  getting offers of more than Rs 10 Lac.</br></br>
 				</p>
-			<div class="vid-wrap">
+			<div class="post-video">
 			<iframe class="videos" src="//www.youtube.com/embed/5zE1gBYVaVk?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-			<div class="video-description">
+			<div class="video-desc">
 				Download Lorde's album "Pure Heroine (Extended Edition)" featuring "Royals" now:<br>
 				iTunes: <a href="http://smarturl.it/PureHeroineExtended">http://smarturl.it/PureHeroineExtended</a><br>
 				Amazon: <a href="http://smarturl.it/PureHeroineExtendAZ">http://smarturl.it/PureHeroineExtendAZ</a>
@@ -130,17 +117,16 @@
 			<div class="showmore">Show More</div>
 			<div class="showless">Show Less</div>
 			</div>
-			<div class="author-time-box">
-				<p class="pink"><u><b>Posted By :</b></u></p>
+			<div class="post-author">
+				<p><u><b>Posted By :</b></u></p>
 				<p>YO YO..Honey Singh @ 4:20 pm</p>
 			</div>
-			<div class="MBTFP">
+			<div class="post-social">
 				<p>M B T F P</p>
 			</div>
-			<div class="Labels">
-				<p class="pink"><b><u>Labels :</b></u></p>
+			<div class="post-labels">
+				<p><b><u>Labels :</b></u></p>
 				<p>IIITD, Placements, Education</p>
-			</div>
 		</div>
 	</body>
 
