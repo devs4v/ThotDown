@@ -28,19 +28,15 @@ echo "<option value=\"".$i."\">".$i."</option>";
  ?>
 </select> MM:
 <select name="month">
-  <option value="not selected">--</option>
-  <option value="January">01</option>
-  <option value="February">02</option>
-  <option value="March">03</option>
-  <option value="April">04</option>
-  <option value="May">05</option>
-  <option value="June">06</option>
-  <option value="July">07</option>
-  <option value="August">08</option>
-  <option value="September">09</option>
-  <option value="October">10</option>
-  <option value="November">11</option>
-  <option value="December">12</option>
+  
+<option value="not selected">--</option>
+<?php 
+ $i=0;
+ for($i=1;$i<=12;$i++)
+ {
+echo "<option value=\"".$i."\">".$i."</option>"; 
+}
+?>
  </select> YYYY:
 <select name="year">
 <option value="not selected">--</option>
