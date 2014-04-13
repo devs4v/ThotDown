@@ -10,9 +10,9 @@
 		Name: <input type="text" name="name"><br><br>
 		Secret Key: <input type="password" name="key"><br><br>
 		Interests:
-		<input type="checkbox" name="interest" value="reading">Reading
-		<input type="checkbox" name="interest" value="adventure">Adventure
-		<input type="checkbox" name="interest" value="technology">Technology
+		<input type="checkbox" name="interest[]" value="reading">Reading
+		<input type="checkbox" name="interest[]" value="adventure">Adventure
+		<input type="checkbox" name="interest[]" value="technology">Technology
 		<br><br>
 		Gender:
 		<input type="radio" name="gender" value="female">Female
