@@ -1,0 +1,19 @@
+body {
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+.brand-image{
+	height: 61px;
+	margin-top: 0;
+	margin-right: 20px;
+	padding-top: 0;
+}
+.navbar .brand{
+	padding: 20px 20px 12px;
+}
+.navbar .nav > li > a {
+	padding: 20px 20px 22px;
+}
+.navbar .nav > li > a:hover {
+	color: #F8FF6F;
+}
